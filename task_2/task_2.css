@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* CSS Document */
 	body{
 		margin:0;
@@ -47,7 +48,7 @@
 		padding:10px 20px;
 		background-color:#FFF;
 		border:1px solid #CCC;
-		box-shadow:0 4px 4px 0 #666;
+		box-shadow:0px 4px 4px#666;
 		}
 	.art_1_title h3 {
 		color:#999;
@@ -241,3 +242,4 @@
 		padding-top:20px;
 		padding-bottom:30px;
 		}
+

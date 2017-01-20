@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		margin:0 20px;
+		padding:0;
+		background-color:#222;
+		}
+	.box{
+
+		background-color:#dedede;
+		}
+	.head{
+		height: 60px;
+		margin-top:-20px;
+		font-family: 微软雅黑;
+		background-color:#333;
+		}
+	.head h1{
+		color:#F00;
+		padding-top:15px;
+		padding-left:50px;
+		}
+	.head img{
+		width:35px;
+		height:35px;
+		margin:0 3px;
+		}
+	.head ul{
+		margin-top:-60px;
+		margin-left:850px;
+		}
+	.head li{
+		float:left;
+		font-size:12px;
+		width:100px;
+		height:20px;
+		line-height:20px;
+		}
+	.head li a{
+		text-decoration: none;
+		color:#e8ecef;
+		}
+	.head li a:visited{
+		color:#a8a8a7;
+		}
+	.box_left{
+		width:70%;
+		float:left;
+		}
+	.box_right{
+		width:28%;
+		margin-right:20px;
+		float:right;
+		}
+	.art_1{
+		margin:20px;
+		padding:10px 20px;
+		background-color:#FFF;
+		border:1px solid #CCC;
+		box-shadow:0px 4px 4px#666;
+		}
+	.art_1_title h3 {
+		color:#999;
+		}
+	.art_1_title h5 {
+		color:#ccc;
+		}
+	.art_1_text p {
+		text-indent:2em;
+		color:#111;
+		font-family: 微软雅黑;
+		line-height:25px;
+		font-size:14px;
+		}
+	.art_2{
+		margin:20px;
+		padding:10px 20px;
+		background-color:#FFF;
+		border:1px solid #CCC;
+		box-shadow:0 4px 4px 0 #666;
+		}
+	.art_2_title h3 {
+		color:#999;
+		}
+	.art_2_title h5 {
+		color:#ccc;
+		}
+	.art_2_text p {
+		text-indent:2em;
+		color:#111;
+		font-family: 微软雅黑;
+		line-height:25px;
+		font-size:14px;
+		}
+	.art_2_text li{
+		font-size: 14px;
+		list-style:none;
+		font-family: 微软雅黑;
+		line-height:25px;
+		}
+	.art_3{
+		height:420px;
+		margin:20px;
+		padding:10px 20px;
+		background-color:#FFF;
+		border:1px solid #CCC;
+		box-shadow:0 4px 4px 0 #666;
+		}
+	.art_3 div {
+		width:100px;
+		border:1px solid #CCC;
+		padding:5px 10px;
+		margin:20px 15px;/*先左右再上下*/
+		}
+	.art_3 span {
+		display:block;
+		font-size: 14px;
+		font-family: 微软雅黑;
+		line-height:25px;
+		text-align:center;
+		}
+	.art_3 img{
+		display:block;
+		margin:auto;
+		}
+	.art_1_img{
+		float:left;
+		}
+	.art_2_img{
+		float:left;
+		}	
+	.art_4{
+		margin:20px;
+		padding:10px 20px;
+		background-color:#FFF;
+		border:1px solid #CCC;
+		box-shadow:0 4px 4px 0 #666;
+		clear:both;
+		}
+	.art_4 h3 {
+		color:#999;
+		}
+	.art_4 h5 {
+		color:#ccc;
+		}
+	.art_4 li {
+		font-weight:bold;
+		color:#111;
+		font-family: 微软雅黑;
+		line-height:25px;
+		font-size:14px;
+		}
+	.art_4 p {
+		color:#111;
+		font-family: 微软雅黑;
+		line-height:25px;
+		font-size:14px;
+		}
+	.art_4 table{
+		width:100%;
+		font-family: 微软雅黑;
+		line-height:25px;
+		font-size:14px;
+		text-indent:5px;
+		}
+	.art_4 table,td {
+		border: 1px solid #ccc;
+		border-collapse:collapse; /*两边框合为一条*/
+		}
+	.art_4_table_tr_1 {
+		background-color:#000;
+		color:#FFF;
+		}
+	.art_4_table_tr_2 {
+		background-color:#888;
+		color:#000;
+		}
+	.art_5{
+		margin-top:20px;
+		padding:20px 20px;
+		font-family: 微软雅黑;
+		font-size:12px;
+		color:#333;
+		background-color:#FFF;
+		border:1px solid #CCC;
+		box-shadow:0 4px 4px 0 #666;
+		}
+	.art_5 h3{
+		text-indent:10px;
+		display:block;
+		color:#000;
+		border-left:2px solid #999;
+		}
+	.email_1 p{
+		color:#999;
+		margin-left:106px;
+		}
+	.ps_1 {
+		margin-left:25px;
+		}
+	.ps_3{
+		color:#999;
+		margin-left:120px;
+		}
+	.dgd {
+		margin:15px 0px;
+		margin-left:100px;
+		}
+	.aa{
+		background-color:#FFF;
+		border:1px dotted #06C;
+		}
+	.city {
+		margin:15px 0px;
+		margin-left:110px;
+		}
+	.hobby {
+		margin:15px 0px;
+		margin-left:65px;
+		}
+	.des {
+		margin:15px 0px;
+		margin-left:25px;
+		}
+	.des label {
+		float:left;
+		}
+	.des textarea{
+		height:60px;
+		overflow:visible;
+		}
+	.sub {
+		background-color:#06C;
+		width:100%;
+		font-size:16px;
+		line-height:40px;
+		font-family:微软雅黑;
+		border-radius:10px;
+		color:#FFF;
+		border:hidden;
+		}
+	.footer{
+		color:#FFF;
+		background-color:#000;
+		text-align:center;
+		font-size:12px;
+		line-height:40px;
+		font-family:微软雅黑;
+		clear:both;
+		}
+	.footer span{
+		display:block;
+		padding-top:20px;
+		padding-bottom:30px;
+		}

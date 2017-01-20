@@ -1,0 +1,60 @@
+/* CSS Document */
+	body {
+		margin:0;
+		padding:0;
+		font-family: 微软雅黑;
+		font-size: 14px;
+		line-height: 25px;
+		}
+	img {
+		display: block;
+		width: 80px;
+		height: 80px;
+		border:1px solid #999;
+		}
+	.box_0 {
+		background-color:#eee;
+		padding:20px;
+		margin:20px;
+		border:1px solid #999;
+		}
+	.box_1 {
+		width: 160px;
+		padding:20px;
+		border:1px solid #999;
+		float: left;
+		background-color:#FFF;
+		}
+	.box_1 img {
+		float:left;
+		}
+	.box_1 h2 {
+		margin:0;
+		margin-left:100px;
+		margin-top:5px;
+		}
+	.box_2 {
+		border:1px solid #999;
+		padding:20px;
+		margin:0px 140px 0px 220px;
+		background-color:#FFF;
+		}
+	.box_2 p {
+		text-indent:2em;
+		}
+	.box_3 {
+		width: 80px;
+		padding:20px;
+		border:1px solid #999;
+		float:right;
+		background-color:#FFF;
+		}
+	.img_1 {
+		margin:0 0 20px 0;
+		}
+	.img_2,img_3 {
+		margin:20px 0 20px 0;
+		}
+	.img_4 {
+		margin:20px 0 0 0;
+		}

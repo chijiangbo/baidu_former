@@ -1,0 +1,148 @@
+.public-header {
+	height: 60px;
+}
+.public-header .header-logo {
+	float: left;
+}
+.public-header .header-logo a {
+	width: 110px;
+	height: 31px;
+	margin-left: 58px;
+	margin-top: 10px;
+	background-image: url("../images/header-logo.png");
+	background-repeat: no-repeat;
+}
+.public-header .header-logo a span {
+	font-size: 21px;
+	font-family: 黑体;
+	color: #393a3a;
+	float: right;
+	padding-top: 5px;
+}
+.public-header .header-nav {
+	float: right;
+	margin-right: 20px;
+}
+.public-header .header-nav a {
+	width: 70px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #787b83;
+	margin-right: 40px;
+	line-height: 60px;
+	text-align: center;
+}
+.public-header .header-nav a:hover {
+	color: #e74f4d;
+	border-bottom: 2px solid #e74f4d;
+}
+.public-header .header-nav .logins {
+	color: #e74f4d;
+}
+.public-header .header-nav .login {
+	margin-right: 8px;
+	vertical-align: middle;
+}
+.public-container {
+	width: 1280px;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+}
+.public-footer {
+	/*margin-top: 168px;*/
+}
+.public-footer-bg {
+	height: 418px;
+	background-color: #32353e;
+}
+.footer-text-1 {
+	font-size: 21px;
+	font-family: 黑体;
+	color: #fff;
+	text-align: center;
+	padding-top: 90px;
+	line-height: 36px;
+}
+.footer-text-2 {
+	font-size: 12px;
+	font-family: 宋体;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+}
+.public-footer .footer-advice {
+	text-align: center;
+	margin-top: 30px;
+}
+.public-footer .advice-text {
+	width: 430px;
+	height: 40px;
+	border: none;
+	vertical-align: bottom;
+}
+.public-footer .advice-btn {
+	color: #fff;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	width: 80px;
+	height: 42px;
+	border: none;
+	background-color: #6f7178;
+	vertical-align: bottom;
+	margin-left: -5px;
+	cursor: pointer;
+}
+.public-footer .footer-sm {
+	width: 236px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 36px;
+}
+.footer-sm .sm-item1 {
+	width: 24px;
+	height: 25px;
+	background-image: url("../images/qq.png");
+	background-repeat: no-repeat;
+	margin-right: 26px;
+	margin-left: 26px;
+}
+.footer-sm .sm-item2 {
+	width: 29px;
+	height: 25px;
+	background-image: url("../images/weibo.png");
+	background-repeat: no-repeat;
+	margin-right: 26px;
+}
+.footer-sm .sm-item3 {
+	width: 29px;
+	height: 25px;
+	background-image: url("../images/twitter.png");
+	background-repeat: no-repeat;
+	margin-right: 26px;
+}
+.footer-sm .sm-item4 {
+	width: 24px;
+	height: 25px;
+	background-image: url("../images/net.png");
+	background-repeat: no-repeat;
+	margin-right: 26px;
+}
+.public-footer .back-top {
+	height: 60px;
+	margin-top: 72px;
+	background-color: #2f3039;
+}
+.public-footer .back-top-l {
+	font-size: 12px;
+	font-family: 宋体;
+	float: left;
+	color: #fff;
+	margin: 34px 0 0 104px;
+}
+.public-footer .back-top-r {
+	font-size: 12px;
+	font-family: 宋体;
+	color: #fff;
+	float: right;
+	margin: 36px 42px 0 0;
+}

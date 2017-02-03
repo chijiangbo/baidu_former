@@ -1,0 +1,85 @@
+.header {
+	width: 100%;
+	height: 56px;
+	background-color: #2189bf;
+	/*vertical-align: middle;*/
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.header-logo {
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+	/*vertical-align: middle;只对行内元素起作用*/
+}
+
+.header-logo .logo-b {
+	width: 36px;
+	height: 36px;
+	background-color: #fff;
+	float: left;
+}
+
+.header-logo .logo-s {
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border-top: 3px solid #2189bf;
+	border-left: 3px solid #2189bf;
+	float: left;
+	margin: 18px 0 0 18px;
+}
+
+.header-search {
+	width: 24%;
+	height: 28px;
+	margin-left: 60%;
+	margin-top: 14px;
+	float: left;
+	border-radius: 14px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.header-search .search-logo {
+	width: 18px;
+	height: 18px;
+	margin: 5px 0 0 20px;
+	background-image: url("../images/header-search.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.header-search .search-texts {
+/*	margin-left: 37px;*/
+	float: left;
+}
+.header-search .search-text {
+	width: 76%;
+	height: 26px;
+	border: none;
+}
+
+.header-login {
+	width: 46px;
+	height: 16px;
+	float: right;
+	margin-right: 66px;
+	margin-top: 20px;
+	line-height: 16px;
+}
+.header-login img {
+	vertical-align: middle;
+}
+.header-login span {
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	font-family: 黑体;
+	padding-left: 4px;	
+}
+
